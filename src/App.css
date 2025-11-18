@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box ;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #FAFAF8;
+}
+
+.header {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.10), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: center;
+  background-color: white;
+}
+
+.header--logo {
+  width: 43px;
+  height: 52px;
+}
+
+.header--title {
+  width: 172px;
+  margin-left: 15px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 60px;
+  color: #141413;
+}
+
+.main {
+  padding: 20px;
+  text-align: center;
+}
+
+.main--input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #D5D5D5;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.add--ingredient-button {
+  margin-left: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF6B6B;
+  color: white;
+  font-size: 16px;
+  padding: 0 15px;
+  cursor: pointer;
+}
