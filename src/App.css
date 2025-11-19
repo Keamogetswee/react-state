@@ -37,17 +37,22 @@ body {
 }
 
 .main--input {
-  width: 300px;
-  height: 40px;
+  width: 399px;
+  height: 38px;
   border: 1px solid #D5D5D5;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 16px;
+  flex-grow: 1;
+  min-width: 150px;
+  max-width: 400px;
 }
+
 
 .add--ingredient-button {
   margin-left: 10px;
-  height: 40px;
+  height: 38px;
+  width: 183px;
   border: none;
   border-radius: 5px;
   background-color: #FF6B6B;
@@ -55,4 +60,6 @@ body {
   font-size: 16px;
   padding: 0 15px;
   cursor: pointer;
+  white-space: nowrap;
+ 
 }
